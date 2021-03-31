@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+body{
+    background-color: #181818c7;
+    color: #eaeaeb;
+    padding: 0px;
+    margin: 0px;
+    /* font-family:helvetica, sans-serif;  */
+    font-family: 'Ubuntu', sans-serif; 
+
+}
+h1, h2, h3, h4, h5 , h6 { 
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight:normal;
+}
+a {
+    text-decoration:none;
+    color:#5993bb;
+}
+
+a:hover {
+    color:#77b6e2;
+}
+a.button, input[type="submit"] {
+    color:#fff;
+    background:#5993bb;
+    border-radius:4px;
+    padding:10px 20px;
+    font-size:14px;
+    border:0;
+}
+.bg-gray{
+    background-color:  rgba(112, 109, 109, 0.726);
+}
+.card{
+    padding: 10px;
+    border-radius: 20px;
+}
+#myChart2{
+    color: #ccc;
+}
+a.button.light {
+    color:#666;
+    background:#ededed;
+}
+.text-left {
+    text-align:left;
+}
+.intro-left{
+    /* background-color: rgba(102, 102, 102, 0.384); */
+    position: absolute;
+    border-radius: 20px;
+    padding: 30px;
+    line-height: 0.9;
+
+}
+.collapsible[type="button"] {
+    background-color: rgba(112, 109, 109, 0.726);
+    color: #ededed;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+    color: black;
+    border-radius: 20px;
+  }
+  .plus{
+      display: inline;
+  }
+  .moins{
+      display: none;
+  }
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    /* background-color: #f1f1f1; */
+  }

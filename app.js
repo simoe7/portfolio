@@ -13,7 +13,7 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({ extended: false }))
 
 app.get('',(req,res)=>{
-    res.send("hello world")
+    return res.render('index')
 })
 
 app.use(bodyParser.json());
