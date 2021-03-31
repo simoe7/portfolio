@@ -57,12 +57,19 @@ a.button.light {
     background-color: rgba(112, 109, 109, 0.726);
     color: #ededed;
     cursor: pointer;
+    text-align: start;
     padding: 18px;
     width: 100%;
     border: none;
     outline: none;
     border-radius: 20px;
     font-size: 15px;
+  }
+  .collapsible:after {
+    content:"\2795";   
+    float: right;   
+
+   
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -71,11 +78,10 @@ a.button.light {
     color: black;
     border-radius: 20px;
   }
-  .plus{
-      display: inline;
-  }
-  .moins{
-      display: none;
+
+  .active:after{
+      content: "\2212";
+      float: right;
   }
   /* Style the collapsible content. Note: hidden by default */
   .content {
@@ -84,3 +90,4 @@ a.button.light {
     overflow: hidden;
     /* background-color: #f1f1f1; */
   }
+ 
